@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.offcanvas-item{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+    transition: background-color .5s;
+}
+
+.offcanvas-item:hover{
+    color: bisque;
+    background-color: black;
+}
+
+.wrapper{
+    margin-top: 100px;
+}
+

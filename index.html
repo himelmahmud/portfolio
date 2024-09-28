@@ -1,11 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hime Mahmud</title>
-</head>
-<body>
-    <h1>Himel Mahmud</h1>    
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Himel Mahmud</title>
+
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="#">
+    
+     <!-- Bootstrap 5 CDN Link -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+     
+     <!-- font Awesome Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- Custom CSS file -->
+     <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-light fixed-top">
+      <div class="container-fluid">
+            <img src="images/mi-Logo.png" class="rounded-3" alt="">
+          <button class="navbar-toggler text-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars text-black"></i>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">The art of programming</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="col-12 text-center p-md-3">
+              <img src="images/01676166133.jpg" class="img-thumbnail rounded " alt="">
+              <h5 class="fs-2">Mahmudul Islam</h5>
+            </div>
+            <div class="offcanvas-body">
+              <div class="col-12">
+                <div id="simple-list-example" class="d-flex flex-column gap-lg-3 simple-list-example-scrollspy text-center">
+                  <a class="offcanvas-item fs-5 py-1" href="#simple-list-item-1">its me!</a>
+                  <a class="offcanvas-item fs-5 py-1" href="#simple-list-item-2">Experince</a>
+                  <a class="offcanvas-item fs-5 py-1" href="#simple-list-item-3">Skills</a>
+                  <a class="offcanvas-item fs-5 py-1" href="#simple-list-item-4">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </nav>
+
+    
+    
+    <div class="container-fluid wrapper">
+      <div class="row">
+        <div class="col-md-12">
+          <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="simple-list-item-1">Item 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, earum quae a vero aspernatur at? Itaque autem aliquid porro fugiat reiciendis beatae, assumenda maxime. At in assumenda non officia cupiditate ad perspiciatis, numquam neque autem architecto quas est suscipit voluptatem incidunt repellat repudiandae sit qui dicta harum. A totam blanditiis pariatur quas officiis vero eveniet, voluptate, quasi inventore non eligendi est voluptas ratione fuga reprehenderit dolor nulla dolorem quidem ad voluptatibus qui explicabo. Eos nemo corrupti cupiditate. Voluptatem consequuntur, excepturi sunt neque odio aliquid officia deleniti et aspernatur quam animi consectetur, eveniet minima officiis ex necessitatibus omnis minus facere est!</p>
+            <h4 id="simple-list-item-2">Item 2</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, earum quae a vero aspernatur at? Itaque autem aliquid porro fugiat reiciendis beatae, assumenda maxime. At in assumenda non officia cupiditate ad perspiciatis, numquam neque autem architecto quas est suscipit voluptatem incidunt repellat repudiandae sit qui dicta harum. A totam blanditiis pariatur quas officiis vero eveniet, voluptate, quasi inventore non eligendi est voluptas ratione fuga reprehenderit dolor nulla dolorem quidem ad voluptatibus qui explicabo. Eos nemo corrupti cupiditate. Voluptatem consequuntur, excepturi sunt neque odio aliquid officia deleniti et aspernatur quam animi consectetur, eveniet minima officiis ex necessitatibus omnis minus facere est!</p>
+            <h4 id="simple-list-item-3">Item 3</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, earum quae a vero aspernatur at? Itaque autem aliquid porro fugiat reiciendis beatae, assumenda maxime. At in assumenda non officia cupiditate ad perspiciatis, numquam neque autem architecto quas est suscipit voluptatem incidunt repellat repudiandae sit qui dicta harum. A totam blanditiis pariatur quas officiis vero eveniet, voluptate, quasi inventore non eligendi est voluptas ratione fuga reprehenderit dolor nulla dolorem quidem ad voluptatibus qui explicabo. Eos nemo corrupti cupiditate. Voluptatem consequuntur, excepturi sunt neque odio aliquid officia deleniti et aspernatur quam animi consectetur, eveniet minima officiis ex necessitatibus omnis minus facere est!</p>
+            <h4 id="simple-list-item-4">Item 4</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, earum quae a vero aspernatur at? Itaque autem aliquid porro fugiat reiciendis beatae, assumenda maxime. At in assumenda non officia cupiditate ad perspiciatis, numquam neque autem architecto quas est suscipit voluptatem incidunt repellat repudiandae sit qui dicta harum. A totam blanditiis pariatur quas officiis vero eveniet, voluptate, quasi inventore non eligendi est voluptas ratione fuga reprehenderit dolor nulla dolorem quidem ad voluptatibus qui explicabo. Eos nemo corrupti cupiditate. Voluptatem consequuntur, excepturi sunt neque odio aliquid officia deleniti et aspernatur quam animi consectetur, eveniet minima officiis ex necessitatibus omnis minus facere est!</p>
+            <h4 id="simple-list-item-5">Item 5</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, earum quae a vero aspernatur at? Itaque autem aliquid porro fugiat reiciendis beatae, assumenda maxime. At in assumenda non officia cupiditate ad perspiciatis, numquam neque autem architecto quas est suscipit voluptatem incidunt repellat repudiandae sit qui dicta harum. A totam blanditiis pariatur quas officiis vero eveniet, voluptate, quasi inventore non eligendi est voluptas ratione fuga reprehenderit dolor nulla dolorem quidem ad voluptatibus qui explicabo. Eos nemo corrupti cupiditate. Voluptatem consequuntur, excepturi sunt neque odio aliquid officia deleniti et aspernatur quam animi consectetur, eveniet minima officiis ex necessitatibus omnis minus facere est!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Custom JS Link -->
+     <script src="js/main.js"></script>
+  </body>
 </html>
